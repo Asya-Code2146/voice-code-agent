@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --color-dark-900: #0d1117;
+  --color-dark-800: #161b22;
+  --color-dark-700: #21262d;
+  --color-dark-600: #30363d;
+  --color-dark-500: #484f58;
+  --color-dark-400: #8b949e;
+  --color-dark-300: #b1bac4;
+  --color-dark-200: #c9d1d9;
+  --color-dark-100: #f0f6fc;
+  --color-neon-blue: #58a6ff;
+  --color-neon-green: #3fb950;
+  --color-neon-red: #f85149;
+  --color-neon-yellow: #d29922;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #30363d transparent;
+}

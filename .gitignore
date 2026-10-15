@@ -1,0 +1,10 @@
+node_modules
+.env
+.env.local
+.env.*.local
+dist
+frontend/dist
+command.wav
+output_project
+.DS_Store
+Thumbs.db

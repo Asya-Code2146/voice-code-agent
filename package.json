@@ -1,0 +1,28 @@
+{
+  "name": "voice-code-agent",
+  "version": "1.0.0",
+  "description": "AI-powered voice and coding assistant for your workspace",
+  "main": "agentAutonomous.js",
+  "scripts": {
+    "build": "npm --prefix frontend run build",
+    "dev": "npm --prefix frontend run dev",
+    "preview": "npm --prefix frontend run preview",
+    "start:mode1": "node mainMode1.js",
+    "start:mode2": "node mainMode2.js",
+    "start:workspace": "node workspaceAgent.js"
+  },
+  "keywords": [
+    "ai",
+    "voice",
+    "coding",
+    "agent",
+    "pwa"
+  ],
+  "author": "Asya-Code2146",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^18.0.7",
+    "groq-sdk": "^1.6.0"
+  }
+}
