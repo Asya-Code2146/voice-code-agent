@@ -1,7 +1,7 @@
 {
-  "buildCommand": "cd frontend && npm install && npm run build",
-  "outputDirectory": "frontend/dist",
   "framework": "vite",
+  "buildCommand": "node -e \"const fs=require('fs'),{execSync}=require('child_process');if(fs.existsSync('frontend')){execSync('npm --prefix frontend run build',{stdio:'inherit'});fs.cpSync('frontend/dist','dist',{recursive:true})}else{execSync('npm run build',{stdio:'inherit'})}\"",
+  "outputDirectory": "dist",
   "rewrites": [
     {
       "source": "/api/(.*)",
